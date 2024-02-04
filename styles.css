@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    ;
+}
+
+#nav{
+    height: 5em;
+    width: 100% ;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+
+
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 4px 8px;
+  border-radius: 50px;
+  font-weight: 500;
+
+}
+
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 4px 8px;
+  border-radius: 50px;
+  font-weight: 500;
+
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    font-size :16px;
+    background-color: white;
+}
+
+#btn2{
+    border: none;
+   color: white;
+    background-image: url(./orangered.webp) ;
+}
+
+#main>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 350px;
+    width: 325px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    border-radius: 20px;
+
+}
+
+#img4{
+  transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+  }
+  #img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+  }
+
+#btmleft{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+#arrow{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    font-size: 30px;
+}
+#btmrigth{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+    justify-content: space-around;
+}
